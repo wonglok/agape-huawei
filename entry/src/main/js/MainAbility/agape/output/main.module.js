@@ -1,0 +1,1 @@
+var o={d:(e,r)=>{for(var t in r)o.o(r,t)&&!o.o(e,t)&&Object.defineProperty(e,t,{enumerable:!0,get:r[t]})},o:(o,e)=>Object.prototype.hasOwnProperty.call(o,e)},e={};function r(){console.log("Hello, world!")}o.d(e,{i:()=>r});var t=e.i;export{t as main};
