@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "000000183CFF40744806130E53FE8268607FA5629DE675D59A098F4664CF4EFF33FA50ED4E4654C4",
+          "certpath": "/Volumes/LokData/Clients/HUAWEI/cert/agape/agape-debug.cer",
+          "keyAlias": "serverpw",
+          "keyPassword": "000000189DD2A6ACC94237C60D7430C98F7FC65FC710F4C1933F2E7C2FA673492E7C139D3742C1D3",
+          "profile": "/Volumes/LokData/Clients/HUAWEI/cert/agape/agape-debugDebug.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Volumes/LokData/Clients/HUAWEI/cert/agape/store.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 8,
+    "compatibleSdkVersion": 8,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

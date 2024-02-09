@@ -1,0 +1,14 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.btn-button {
+    margin: 1px;
+    height: 40px;
+    width: 220px;
+    background-color: lightblue;
+    font-size: 20px;
+    text-color: blue;
+}
